@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
   flatlist: {
-    paddingVertical: 20,
+    padding: 16,
   },
   item: {
     flexDirection: 'row',
@@ -12,14 +12,26 @@ export default StyleSheet.create({
     width: 50,
     height: 50,
   },
-  itemContent: {
+  itemTitle: {
     marginLeft: 16,
-    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
   },
   itemPrices: {
+    flexDirection: 'column',
+    // flex: 1,
+    alignItems: 'flex-start',
+    // justifyContent: 'space-between',
+    paddingLeft: 16,
+  },
+  itemColumn: {
     flexDirection: 'row',
-    flex: 1,
-    justifyContent: 'space-between',
+    width: 120,
+    // justifyContent: 'center',
+  },
+  priceLabel: {
+    width: 60,
   },
   separator: {
     height: 16,
