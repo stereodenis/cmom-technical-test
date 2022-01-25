@@ -1,6 +1,9 @@
 import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
+  flatlist: {
+    paddingVertical: 20,
+  },
   item: {
     flexDirection: 'row',
     paddingHorizontal: 16,
